@@ -1,0 +1,442 @@
+Feb 27 18:55:36 chuang kernel: Kernel logging (proc) stopped.
+Feb 27 18:55:36 chuang kernel: Kernel log daemon terminating.
+Feb 27 18:55:59 chuang kernel: klogd 1.5.1, log source = /proc/kmsg started.
+Feb 27 18:55:59 chuang kernel: Inspecting /boot/System.map
+Feb 27 18:55:59 chuang kernel: Cannot find map file.
+Feb 27 18:55:59 chuang kernel: Loaded 46098 symbols from 1 module.
+Feb 27 18:55:59 chuang kernel: [    0.000000] Linux version 4.16.0-rc1-00100-g1388c80438e6 (root@chuang) (gcc version 6.2.0 (GCC)) #1 SMP Fri Feb 16 12:03:03 CET 2018
+Feb 27 18:55:59 chuang kernel: [    0.000000] Command line: BOOT_IMAGE=/vmlinuz-debugfs root=/dev/sda2 ro
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/fpu: Enabled xstate features 0x7, context size is 832 bytes, using 'standard' format.
+Feb 27 18:55:59 chuang kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x00000000dffeffff] usable
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x00000000dfff0000-0x00000000dfffffff] ACPI data
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000011fffffff] usable
+Feb 27 18:55:59 chuang kernel: [    0.000000] NX (Execute Disable) protection: active
+Feb 27 18:55:59 chuang kernel: [    0.000000] random: fast init done
+Feb 27 18:55:59 chuang kernel: [    0.000000] SMBIOS 2.5 present.
+Feb 27 18:55:59 chuang kernel: [    0.000000] DMI: innotek GmbH VirtualBox/VirtualBox, BIOS VirtualBox 12/01/2006
+Feb 27 18:55:59 chuang kernel: [    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+Feb 27 18:55:59 chuang kernel: [    0.000000] e820: last_pfn = 0x120000 max_arch_pfn = 0x400000000
+Feb 27 18:55:59 chuang kernel: [    0.000000] MTRR default type: uncachable
+Feb 27 18:55:59 chuang kernel: [    0.000000] MTRR variable ranges disabled:
+Feb 27 18:55:59 chuang kernel: [    0.000000] MTRR: Disabled
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+Feb 27 18:55:59 chuang kernel: [    0.000000] CPU MTRRs all blank - virtualized system.
+Feb 27 18:55:59 chuang kernel: [    0.000000] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+Feb 27 18:55:59 chuang kernel: [    0.000000] e820: last_pfn = 0xdfff0 max_arch_pfn = 0x400000000
+Feb 27 18:55:59 chuang kernel: [    0.000000] found SMP MP-table at [mem 0x0009fff0-0x0009ffff] mapped at [        (ptrval)]
+Feb 27 18:55:59 chuang kernel: [    0.000000] Scanning 1 areas for low memory corruption
+Feb 27 18:55:59 chuang kernel: [    0.000000] Base memory trampoline at [        (ptrval)] 99000 size 24576
+Feb 27 18:55:59 chuang kernel: [    0.000000] BRK [0x544fd000, 0x544fdfff] PGTABLE
+Feb 27 18:55:59 chuang kernel: [    0.000000] BRK [0x544fe000, 0x544fefff] PGTABLE
+Feb 27 18:55:59 chuang kernel: [    0.000000] BRK [0x544ff000, 0x544fffff] PGTABLE
+Feb 27 18:55:59 chuang kernel: [    0.000000] BRK [0x54500000, 0x54500fff] PGTABLE
+Feb 27 18:55:59 chuang kernel: [    0.000000] BRK [0x54501000, 0x54501fff] PGTABLE
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: Early table checksum verification disabled
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: RSDP 0x00000000000E0000 000024 (v02 VBOX  )
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: XSDT 0x00000000DFFF0030 00003C (v01 VBOX   VBOXXSDT 00000001 ASL  00000061)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: FACP 0x00000000DFFF00F0 0000F4 (v04 VBOX   VBOXFACP 00000001 ASL  00000061)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: DSDT 0x00000000DFFF0480 0021FF (v02 VBOX   VBOXBIOS 00000002 INTL 20100528)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: FACS 0x00000000DFFF0200 000040
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: APIC 0x00000000DFFF0240 00006C (v02 VBOX   VBOXAPIC 00000001 ASL  00000061)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: SSDT 0x00000000DFFF02B0 0001CC (v01 VBOX   VBOXCPUT 00000002 INTL 20100528)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 27 18:55:59 chuang kernel: [    0.000000] No NUMA configuration found
+Feb 27 18:55:59 chuang kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x000000011fffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x11fff8000-0x11fffbfff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] tsc: Fast TSC calibration failed
+Feb 27 18:55:59 chuang kernel: [    0.000000] tsc: Using PIT calibration value
+Feb 27 18:55:59 chuang kernel: [    0.000000] Zone ranges:
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000]   Normal   [mem 0x0000000100000000-0x000000011fffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] Movable zone start for each node
+Feb 27 18:55:59 chuang kernel: [    0.000000] Early memory node ranges
+Feb 27 18:55:59 chuang kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Feb 27 18:55:59 chuang kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x00000000dffeffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000]   node   0: [mem 0x0000000100000000-0x000000011fffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x000000011fffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] On node 0 totalpages: 1048462
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA zone: 64 pages used for memmap
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA zone: 21 pages reserved
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA zone: 3998 pages, LIFO batch:0
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA32 zone: 14272 pages used for memmap
+Feb 27 18:55:59 chuang kernel: [    0.000000]   DMA32 zone: 913392 pages, LIFO batch:31
+Feb 27 18:55:59 chuang kernel: [    0.000000]   Normal zone: 2048 pages used for memmap
+Feb 27 18:55:59 chuang kernel: [    0.000000]   Normal zone: 131072 pages, LIFO batch:31
+Feb 27 18:55:59 chuang kernel: [    0.000000] Reserved but unavailable: 98 pages
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: PM-Timer IO Port: 0x4008
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Feb 27 18:55:59 chuang kernel: [    0.000000] IOAPIC[0]: apic_id 4, version 32, address 0xfec00000, GSI 0-23
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: IRQ0 used by override.
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: IRQ9 used by override.
+Feb 27 18:55:59 chuang kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Feb 27 18:55:59 chuang kernel: [    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xdfff0000-0xdfffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xe0000000-0xfebfffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfec01000-0xfedfffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xfffbffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] PM: Registered nosave memory: [mem 0xfffc0000-0xffffffff]
+Feb 27 18:55:59 chuang kernel: [    0.000000] e820: [mem 0xe0000000-0xfebfffff] available for PCI devices
+Feb 27 18:55:59 chuang kernel: [    0.000000] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+Feb 27 18:55:59 chuang kernel: [    0.000000] setup_percpu: NR_CPUS:64 nr_cpumask_bits:64 nr_cpu_ids:4 nr_node_ids:1
+Feb 27 18:55:59 chuang kernel: [    0.000000] percpu: Embedded 43 pages/cpu @        (ptrval) s137624 r8192 d30312 u524288
+Feb 27 18:55:59 chuang kernel: [    0.000000] pcpu-alloc: s137624 r8192 d30312 u524288 alloc=1*2097152
+Feb 27 18:55:59 chuang kernel: [    0.000000] pcpu-alloc: [0] 0 1 2 3 
+Feb 27 18:55:59 chuang kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 1032057
+Feb 27 18:55:59 chuang kernel: [    0.000000] Policy zone: Normal
+Feb 27 18:55:59 chuang kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/vmlinuz-debugfs root=/dev/sda2 ro
+Feb 27 18:55:59 chuang kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Feb 27 18:55:59 chuang kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Feb 27 18:55:59 chuang kernel: [    0.000000] Memory: 4035864K/4193848K available (12300K kernel code, 1281K rwdata, 3056K rodata, 1224K init, 660K bss, 157984K reserved, 0K cma-reserved)
+Feb 27 18:55:59 chuang kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Feb 27 18:55:59 chuang kernel: [    0.000000] Kernel/User page tables isolation: enabled
+Feb 27 18:55:59 chuang kernel: [    0.000000] Hierarchical RCU implementation.
+Feb 27 18:55:59 chuang kernel: [    0.000000] ^IRCU event tracing is enabled.
+Feb 27 18:55:59 chuang kernel: [    0.000000] ^IRCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.
+Feb 27 18:55:59 chuang kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+Feb 27 18:55:59 chuang kernel: [    0.000000] NR_IRQS: 4352, nr_irqs: 456, preallocated irqs: 16
+Feb 27 18:55:59 chuang kernel: [    0.000000] Console: colour VGA+ 80x25
+Feb 27 18:55:59 chuang kernel: [    0.000000] console [tty0] enabled
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: Core revision 20180105
+Feb 27 18:55:59 chuang kernel: [    0.000000] ACPI: 2 ACPI AML tables successfully acquired and loaded
+Feb 27 18:55:59 chuang kernel: [    0.000000] APIC: Switch to symmetric I/O mode setup
+Feb 27 18:55:59 chuang kernel: [    0.001000] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Feb 27 18:55:59 chuang kernel: [    0.007000] tsc: Fast TSC calibration using PIT
+Feb 27 18:55:59 chuang kernel: [    0.008000] tsc: Detected 2893.600 MHz processor
+Feb 27 18:55:59 chuang kernel: [    0.008000] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x29b5a52657c, max_idle_ns: 440795314482 ns
+Feb 27 18:55:59 chuang kernel: [    0.009008] Calibrating delay loop (skipped), value calculated using timer frequency.. 5787.20 BogoMIPS (lpj=2893600)
+Feb 27 18:55:59 chuang kernel: [    0.009615] pid_max: default: 32768 minimum: 301
+Feb 27 18:55:59 chuang kernel: [    0.010025] Security Framework initialized
+Feb 27 18:55:59 chuang kernel: [    0.010386] SELinux:  Initializing.
+Feb 27 18:55:59 chuang kernel: [    0.010727] SELinux:  Starting in permissive mode
+Feb 27 18:55:59 chuang kernel: [    0.011686] Dentry cache hash table entries: 524288 (order: 10, 4194304 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.012455] Inode-cache hash table entries: 262144 (order: 9, 2097152 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.013022] Mount-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.013575] Mountpoint-cache hash table entries: 8192 (order: 4, 65536 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.014176] CPU: Physical Processor ID: 0
+Feb 27 18:55:59 chuang kernel: [    0.014523] CPU: Processor Core ID: 0
+Feb 27 18:55:59 chuang kernel: [    0.014886] mce: CPU supports 0 MCE banks
+Feb 27 18:55:59 chuang kernel: [    0.015043] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Feb 27 18:55:59 chuang kernel: [    0.015498] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+Feb 27 18:55:59 chuang kernel: [    0.016007] Spectre V2 : Vulnerable: Minimal generic ASM retpoline
+Feb 27 18:55:59 chuang kernel: [    0.016527] Freeing SMP alternatives memory: 36K
+Feb 27 18:55:59 chuang kernel: [    0.018000] smpboot: CPU0: Intel(R) Core(TM) i5-3470S CPU @ 2.90GHz (family: 0x6, model: 0x3a, stepping: 0x9)
+Feb 27 18:55:59 chuang kernel: [    0.018000] Performance Events: unsupported p6 CPU model 58 no PMU driver, software events only.
+Feb 27 18:55:59 chuang kernel: [    0.018062] Hierarchical SRCU implementation.
+Feb 27 18:55:59 chuang kernel: [    0.018557] smp: Bringing up secondary CPUs ...
+Feb 27 18:55:59 chuang kernel: [    0.019144] x86: Booting SMP configuration:
+Feb 27 18:55:59 chuang kernel: [    0.019469] .... node  #0, CPUs:      #1
+Feb 27 18:55:59 chuang kernel: [    0.001000] mce: CPU supports 0 MCE banks
+Feb 27 18:55:59 chuang kernel: [    0.021143]  #2
+Feb 27 18:55:59 chuang kernel: [    0.001000] mce: CPU supports 0 MCE banks
+Feb 27 18:55:59 chuang kernel: [    0.024046]  #3
+Feb 27 18:55:59 chuang kernel: [    0.001000] mce: CPU supports 0 MCE banks
+Feb 27 18:55:59 chuang kernel: [    0.026033] smp: Brought up 1 node, 4 CPUs
+Feb 27 18:55:59 chuang kernel: [    0.027312] smpboot: Max logical packages: 1
+Feb 27 18:55:59 chuang kernel: [    0.027638] smpboot: Total of 4 processors activated (23148.80 BogoMIPS)
+Feb 27 18:55:59 chuang kernel: [    0.028268] devtmpfs: initialized
+Feb 27 18:55:59 chuang kernel: [    0.029494] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+Feb 27 18:55:59 chuang kernel: [    0.029494] kworker/u8:0 (30) used greatest stack depth: 14200 bytes left
+Feb 27 18:55:59 chuang kernel: [    0.030017] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.031124] RTC time: 17:55:53, date: 02/27/18
+Feb 27 18:55:59 chuang kernel: [    0.032018] NET: Registered protocol family 16
+Feb 27 18:55:59 chuang kernel: [    0.032325] audit: initializing netlink subsys (disabled)
+Feb 27 18:55:59 chuang kernel: [    0.033048] audit: type=2000 audit(1519754153.033:1): state=initialized audit_enabled=0 res=1
+Feb 27 18:55:59 chuang kernel: [    0.033504] cpuidle: using governor menu
+Feb 27 18:55:59 chuang kernel: [    0.034048] ACPI: bus type PCI registered
+Feb 27 18:55:59 chuang kernel: [    0.034587] PCI: Using configuration type 1 for base access
+Feb 27 18:55:59 chuang kernel: [    0.049252] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Feb 27 18:55:59 chuang kernel: [    0.050153] ACPI: Added _OSI(Module Device)
+Feb 27 18:55:59 chuang kernel: [    0.050531] ACPI: Added _OSI(Processor Device)
+Feb 27 18:55:59 chuang kernel: [    0.051020] ACPI: Added _OSI(3.0 _SCP Extensions)
+Feb 27 18:55:59 chuang kernel: [    0.051373] ACPI: Added _OSI(Processor Aggregator Device)
+Feb 27 18:55:59 chuang kernel: [    0.052304] ACPI: Executed 1 blocks of module-level executable AML code
+Feb 27 18:55:59 chuang kernel: [    0.054763] ACPI: Interpreter enabled
+Feb 27 18:55:59 chuang kernel: [    0.055014] ACPI: (supports S0 S5)
+Feb 27 18:55:59 chuang kernel: [    0.055335] ACPI: Using IOAPIC for interrupt routing
+Feb 27 18:55:59 chuang kernel: [    0.055768] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Feb 27 18:55:59 chuang kernel: [    0.056158] ACPI: Enabled 2 GPEs in block 00 to 07
+Feb 27 18:55:59 chuang kernel: [    0.062339] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Feb 27 18:55:59 chuang kernel: [    0.062708] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Feb 27 18:55:59 chuang kernel: [    0.063022] acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+Feb 27 18:55:59 chuang kernel: [    0.063534] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Feb 27 18:55:59 chuang kernel: [    0.064124] PCI host bridge to bus 0000:00
+Feb 27 18:55:59 chuang kernel: [    0.064539] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Feb 27 18:55:59 chuang kernel: [    0.065007] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Feb 27 18:55:59 chuang kernel: [    0.065408] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Feb 27 18:55:59 chuang kernel: [    0.066010] pci_bus 0000:00: root bus resource [mem 0xe0000000-0xfdffffff window]
+Feb 27 18:55:59 chuang kernel: [    0.066450] pci_bus 0000:00: root bus resource [bus 00-ff]
+Feb 27 18:55:59 chuang kernel: [    0.067057] pci 0000:00:00.0: [8086:1237] type 00 class 0x060000
+Feb 27 18:55:59 chuang kernel: [    0.067767] pci 0000:00:01.0: [8086:7000] type 00 class 0x060100
+Feb 27 18:55:59 chuang kernel: [    0.068825] pci 0000:00:01.1: [8086:7111] type 00 class 0x01018a
+Feb 27 18:55:59 chuang kernel: [    0.069460] pci 0000:00:01.1: reg 0x20: [io  0xd000-0xd00f]
+Feb 27 18:55:59 chuang kernel: [    0.069690] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Feb 27 18:55:59 chuang kernel: [    0.070006] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Feb 27 18:55:59 chuang kernel: [    0.070390] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Feb 27 18:55:59 chuang kernel: [    0.070798] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Feb 27 18:55:59 chuang kernel: [    0.071256] pci 0000:00:02.0: [80ee:beef] type 00 class 0x030000
+Feb 27 18:55:59 chuang kernel: [    0.073275] pci 0000:00:02.0: reg 0x10: [mem 0xe0000000-0xe0ffffff pref]
+Feb 27 18:55:59 chuang kernel: [    0.086163] pci 0000:00:03.0: [8086:100e] type 00 class 0x020000
+Feb 27 18:55:59 chuang kernel: [    0.088157] pci 0000:00:03.0: reg 0x10: [mem 0xf0000000-0xf001ffff]
+Feb 27 18:55:59 chuang kernel: [    0.092152] pci 0000:00:03.0: reg 0x18: [io  0xd010-0xd017]
+Feb 27 18:55:59 chuang kernel: [    0.100441] pci 0000:00:04.0: [80ee:cafe] type 00 class 0x088000
+Feb 27 18:55:59 chuang kernel: [    0.102131] pci 0000:00:04.0: reg 0x10: [io  0xd020-0xd03f]
+Feb 27 18:55:59 chuang kernel: [    0.104127] pci 0000:00:04.0: reg 0x14: [mem 0xf0400000-0xf07fffff]
+Feb 27 18:55:59 chuang kernel: [    0.106127] pci 0000:00:04.0: reg 0x18: [mem 0xf0800000-0xf0803fff pref]
+Feb 27 18:55:59 chuang kernel: [    0.113450] pci 0000:00:05.0: [8086:2415] type 00 class 0x040100
+Feb 27 18:55:59 chuang kernel: [    0.113699] pci 0000:00:05.0: reg 0x10: [io  0xd100-0xd1ff]
+Feb 27 18:55:59 chuang kernel: [    0.113790] pci 0000:00:05.0: reg 0x14: [io  0xd200-0xd23f]
+Feb 27 18:55:59 chuang kernel: [    0.114605] pci 0000:00:06.0: [106b:003f] type 00 class 0x0c0310
+Feb 27 18:55:59 chuang kernel: [    0.115135] pci 0000:00:06.0: reg 0x10: [mem 0xf0804000-0xf0804fff]
+Feb 27 18:55:59 chuang kernel: [    0.127545] pci 0000:00:07.0: [8086:7113] type 00 class 0x068000
+Feb 27 18:55:59 chuang kernel: [    0.128122] pci 0000:00:07.0: quirk: [io  0x4000-0x403f] claimed by PIIX4 ACPI
+Feb 27 18:55:59 chuang kernel: [    0.128641] pci 0000:00:07.0: quirk: [io  0x4100-0x410f] claimed by PIIX4 SMB
+Feb 27 18:55:59 chuang kernel: [    0.129418] pci 0000:00:0d.0: [8086:2829] type 00 class 0x010601
+Feb 27 18:55:59 chuang kernel: [    0.130217] pci 0000:00:0d.0: reg 0x10: [io  0xd240-0xd247]
+Feb 27 18:55:59 chuang kernel: [    0.131165] pci 0000:00:0d.0: reg 0x14: [io  0xd248-0xd24b]
+Feb 27 18:55:59 chuang kernel: [    0.132187] pci 0000:00:0d.0: reg 0x18: [io  0xd250-0xd257]
+Feb 27 18:55:59 chuang kernel: [    0.133198] pci 0000:00:0d.0: reg 0x1c: [io  0xd258-0xd25b]
+Feb 27 18:55:59 chuang kernel: [    0.133236] pci 0000:00:0d.0: reg 0x20: [io  0xd260-0xd26f]
+Feb 27 18:55:59 chuang kernel: [    0.135172] pci 0000:00:0d.0: reg 0x24: [mem 0xf0806000-0xf0807fff]
+Feb 27 18:55:59 chuang kernel: [    0.139896] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 9 10 *11)
+Feb 27 18:55:59 chuang kernel: [    0.142101] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 9 *10 11)
+Feb 27 18:55:59 chuang kernel: [    0.143193] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 *9 10 11)
+Feb 27 18:55:59 chuang kernel: [    0.144497] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 9 10 *11)
+Feb 27 18:55:59 chuang kernel: [    0.145263] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Feb 27 18:55:59 chuang kernel: [    0.146000] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Feb 27 18:55:59 chuang kernel: [    0.146030] pci 0000:00:02.0: vgaarb: bridge control possible
+Feb 27 18:55:59 chuang kernel: [    0.147008] vgaarb: loaded
+Feb 27 18:55:59 chuang kernel: [    0.147444] SCSI subsystem initialized
+Feb 27 18:55:59 chuang kernel: [    0.148056] libata version 3.00 loaded.
+Feb 27 18:55:59 chuang kernel: [    0.148085] ACPI: bus type USB registered
+Feb 27 18:55:59 chuang kernel: [    0.148574] usbcore: registered new interface driver usbfs
+Feb 27 18:55:59 chuang kernel: [    0.149044] usbcore: registered new interface driver hub
+Feb 27 18:55:59 chuang kernel: [    0.149489] usbcore: registered new device driver usb
+Feb 27 18:55:59 chuang kernel: [    0.150040] pps_core: LinuxPPS API ver. 1 registered
+Feb 27 18:55:59 chuang kernel: [    0.150439] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Feb 27 18:55:59 chuang kernel: [    0.151020] PTP clock support registered
+Feb 27 18:55:59 chuang kernel: [    0.153162] EDAC MC: Ver: 3.0.0
+Feb 27 18:55:59 chuang kernel: [    0.154390] Advanced Linux Sound Architecture Driver Initialized.
+Feb 27 18:55:59 chuang kernel: [    0.155045] PCI: Using ACPI for IRQ routing
+Feb 27 18:55:59 chuang kernel: [    0.155469] PCI: pci_cache_line_size set to 64 bytes
+Feb 27 18:55:59 chuang kernel: [    0.155709] e820: reserve RAM buffer [mem 0x0009fc00-0x0009ffff]
+Feb 27 18:55:59 chuang kernel: [    0.155715] e820: reserve RAM buffer [mem 0xdfff0000-0xdfffffff]
+Feb 27 18:55:59 chuang kernel: [    0.156037] NetLabel: Initializing
+Feb 27 18:55:59 chuang kernel: [    0.156430] NetLabel:  domain hash size = 128
+Feb 27 18:55:59 chuang kernel: [    0.156768] NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+Feb 27 18:55:59 chuang kernel: [    0.157019] NetLabel:  unlabeled traffic allowed by default
+Feb 27 18:55:59 chuang kernel: [    0.179790] clocksource: Switched to clocksource tsc-early
+Feb 27 18:55:59 chuang kernel: [    0.189145] VFS: Disk quotas dquot_6.6.0
+Feb 27 18:55:59 chuang kernel: [    0.189466] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.190106] pnp: PnP ACPI init
+Feb 27 18:55:59 chuang kernel: [    0.190467] pnp 00:00: Plug and Play ACPI device, IDs PNP0303 (active)
+Feb 27 18:55:59 chuang kernel: [    0.190553] pnp 00:01: Plug and Play ACPI device, IDs PNP0f03 (active)
+Feb 27 18:55:59 chuang kernel: [    0.191428] pnp: PnP ACPI: found 2 devices
+Feb 27 18:55:59 chuang kernel: [    0.205985] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Feb 27 18:55:59 chuang kernel: [    0.206459] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+Feb 27 18:55:59 chuang kernel: [    0.206461] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+Feb 27 18:55:59 chuang kernel: [    0.206463] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+Feb 27 18:55:59 chuang kernel: [    0.206466] pci_bus 0000:00: resource 7 [mem 0xe0000000-0xfdffffff window]
+Feb 27 18:55:59 chuang kernel: [    0.206504] NET: Registered protocol family 2
+Feb 27 18:55:59 chuang kernel: [    0.207017] tcp_listen_portaddr_hash hash table entries: 2048 (order: 3, 32768 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.207463] TCP established hash table entries: 32768 (order: 6, 262144 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.208320] TCP bind hash table entries: 32768 (order: 7, 524288 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.208843] TCP: Hash tables configured (established 32768 bind 32768)
+Feb 27 18:55:59 chuang kernel: [    0.209494] UDP hash table entries: 2048 (order: 4, 65536 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.209968] UDP-Lite hash table entries: 2048 (order: 4, 65536 bytes)
+Feb 27 18:55:59 chuang kernel: [    0.210414] NET: Registered protocol family 1
+Feb 27 18:55:59 chuang kernel: [    0.211387] RPC: Registered named UNIX socket transport module.
+Feb 27 18:55:59 chuang kernel: [    0.211855] RPC: Registered udp transport module.
+Feb 27 18:55:59 chuang kernel: [    0.212238] RPC: Registered tcp transport module.
+Feb 27 18:55:59 chuang kernel: [    0.212589] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Feb 27 18:55:59 chuang kernel: [    0.213355] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Feb 27 18:55:59 chuang kernel: [    0.213912] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Feb 27 18:55:59 chuang kernel: [    0.214358] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Feb 27 18:55:59 chuang kernel: [    0.215945] PCI: CLS 0 bytes, default 64
+Feb 27 18:55:59 chuang kernel: [    0.215987] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+Feb 27 18:55:59 chuang kernel: [    0.216350] software IO TLB [mem 0xdbff0000-0xdfff0000] (64MB) mapped at [000000002513d476-000000005fc7b037]
+Feb 27 18:55:59 chuang kernel: [    0.217337] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 10737418240 ms ovfl timer
+Feb 27 18:55:59 chuang kernel: [    0.218037] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Feb 27 18:55:59 chuang kernel: [    0.218467] RAPL PMU: hw unit of domain package 2^-0 Joules
+Feb 27 18:55:59 chuang kernel: [    0.218886] RAPL PMU: hw unit of domain pp1-gpu 2^-0 Joules
+Feb 27 18:55:59 chuang kernel: [    0.219328] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Feb 27 18:55:59 chuang kernel: [    0.221450] Scanning for low memory corruption every 60 seconds
+Feb 27 18:55:59 chuang kernel: [    0.222466] Initialise system trusted keyrings
+Feb 27 18:55:59 chuang kernel: [    0.222994] workingset: timestamp_bits=56 max_order=20 bucket_order=0
+Feb 27 18:55:59 chuang kernel: [    0.225143] NFS: Registering the id_resolver key type
+Feb 27 18:55:59 chuang kernel: [    0.225634] Key type id_resolver registered
+Feb 27 18:55:59 chuang kernel: [    0.226004] Key type id_legacy registered
+Feb 27 18:55:59 chuang kernel: [    0.226521] SELinux:  Registering netfilter hooks
+Feb 27 18:55:59 chuang kernel: [    0.234936] Key type asymmetric registered
+Feb 27 18:55:59 chuang kernel: [    0.235284] Asymmetric key parser 'x509' registered
+Feb 27 18:55:59 chuang kernel: [    0.235828] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 250)
+Feb 27 18:55:59 chuang kernel: [    0.236394] io scheduler noop registered
+Feb 27 18:55:59 chuang kernel: [    0.236669] io scheduler deadline registered
+Feb 27 18:55:59 chuang kernel: [    0.237042] io scheduler cfq registered (default)
+Feb 27 18:55:59 chuang kernel: [    0.237337] io scheduler mq-deadline registered
+Feb 27 18:55:59 chuang kernel: [    0.237760] io scheduler kyber registered
+Feb 27 18:55:59 chuang kernel: [    0.238717] ACPI: AC Adapter [AC] (on-line)
+Feb 27 18:55:59 chuang kernel: [    0.239104] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+Feb 27 18:55:59 chuang kernel: [    0.239707] ACPI: Power Button [PWRF]
+Feb 27 18:55:59 chuang kernel: [    0.239793] input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+Feb 27 18:55:59 chuang kernel: [    0.240341] ACPI: Sleep Button [SLPF]
+Feb 27 18:55:59 chuang kernel: [    0.240862] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+Feb 27 18:55:59 chuang kernel: [    0.241387] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/LNXVIDEO:00/input/input2
+Feb 27 18:55:59 chuang kernel: [    0.242482] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Feb 27 18:55:59 chuang kernel: [    0.243968] Non-volatile memory driver v1.3
+Feb 27 18:55:59 chuang kernel: [    0.244476] Linux agpgart interface v0.103
+Feb 27 18:55:59 chuang kernel: [    0.248011] loop: module loaded
+Feb 27 18:55:59 chuang kernel: [    0.248417] ahci 0000:00:0d.0: version 3.0
+Feb 27 18:55:59 chuang kernel: [    0.249150] ahci 0000:00:0d.0: SSS flag set, parallel bus scan disabled
+Feb 27 18:55:59 chuang kernel: [    0.249580] ahci 0000:00:0d.0: AHCI 0001.0100 32 slots 1 ports 3 Gbps 0x1 impl SATA mode
+Feb 27 18:55:59 chuang kernel: [    0.250718] ahci 0000:00:0d.0: flags: 64bit ncq stag only ccc 
+Feb 27 18:55:59 chuang kernel: [    0.252158] scsi host0: ahci
+Feb 27 18:55:59 chuang kernel: [    0.252521] ata1: SATA max UDMA/133 abar m8192@0xf0806000 port 0xf0806100 irq 21
+Feb 27 18:55:59 chuang kernel: [    0.253126] ata_piix 0000:00:01.1: version 2.13
+Feb 27 18:55:59 chuang kernel: [    0.255931] scsi host1: ata_piix
+Feb 27 18:55:59 chuang kernel: [    0.256493] scsi host2: ata_piix
+Feb 27 18:55:59 chuang kernel: [    0.257004] ata2: PATA max UDMA/33 cmd 0x1f0 ctl 0x3f6 bmdma 0xd000 irq 14
+Feb 27 18:55:59 chuang kernel: [    0.257372] ata3: PATA max UDMA/33 cmd 0x170 ctl 0x376 bmdma 0xd008 irq 15
+Feb 27 18:55:59 chuang kernel: [    0.257928] e100: Intel(R) PRO/100 Network Driver, 3.5.24-k2-NAPI
+Feb 27 18:55:59 chuang kernel: [    0.258375] e100: Copyright(c) 1999-2006 Intel Corporation
+Feb 27 18:55:59 chuang kernel: [    0.258897] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Feb 27 18:55:59 chuang kernel: [    0.259307] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Feb 27 18:55:59 chuang kernel: [    0.412206] ata3.00: ATAPI: VBOX CD-ROM, 1.0, max UDMA/133
+Feb 27 18:55:59 chuang kernel: [    0.413128] ata3.00: configured for UDMA/33
+Feb 27 18:55:59 chuang kernel: [    0.561335] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+Feb 27 18:55:59 chuang kernel: [    0.562008] ata1.00: ATA-6: VBOX HARDDISK, 1.0, max UDMA/133
+Feb 27 18:55:59 chuang kernel: [    0.562432] ata1.00: 102400000 sectors, multi 128: LBA48 NCQ (depth 31/32)
+Feb 27 18:55:59 chuang kernel: [    0.563140] ata1.00: configured for UDMA/133
+Feb 27 18:55:59 chuang kernel: [    0.563760] scsi 0:0:0:0: Direct-Access     ATA      VBOX HARDDISK    1.0  PQ: 0 ANSI: 5
+Feb 27 18:55:59 chuang kernel: [    0.564613] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Feb 27 18:55:59 chuang kernel: [    0.565589] scsi 2:0:0:0: CD-ROM            VBOX     CD-ROM           1.0  PQ: 0 ANSI: 5
+Feb 27 18:55:59 chuang kernel: [    0.566391] sd 0:0:0:0: [sda] 102400000 512-byte logical blocks: (52.4 GB/48.8 GiB)
+Feb 27 18:55:59 chuang kernel: [    0.567310] sd 0:0:0:0: [sda] Write Protect is off
+Feb 27 18:55:59 chuang kernel: [    0.567739] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Feb 27 18:55:59 chuang kernel: [    0.567777] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+Feb 27 18:55:59 chuang kernel: [    0.570888]  sda: sda1 sda2 sda3
+Feb 27 18:55:59 chuang kernel: [    0.571785] sd 0:0:0:0: [sda] Attached SCSI disk
+Feb 27 18:55:59 chuang kernel: [    0.621373] sr 2:0:0:0: [sr0] scsi3-mmc drive: 32x/32x xa/form2 tray
+Feb 27 18:55:59 chuang kernel: [    0.621822] cdrom: Uniform CD-ROM driver Revision: 3.20
+Feb 27 18:55:59 chuang kernel: [    0.622296] sr 2:0:0:0: Attached scsi CD-ROM sr0
+Feb 27 18:55:59 chuang kernel: [    0.622503] sr 2:0:0:0: Attached scsi generic sg1 type 5
+Feb 27 18:55:59 chuang kernel: [    0.622789] kworker/u8:4 (915) used greatest stack depth: 14128 bytes left
+Feb 27 18:55:59 chuang kernel: [    0.648754] e1000 0000:00:03.0 eth0: (PCI:33MHz:32-bit) 08:00:27:94:69:7d
+Feb 27 18:55:59 chuang kernel: [    0.649199] e1000 0000:00:03.0 eth0: Intel(R) PRO/1000 Network Connection
+Feb 27 18:55:59 chuang kernel: [    0.649717] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k
+Feb 27 18:55:59 chuang kernel: [    0.650128] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.
+Feb 27 18:55:59 chuang kernel: [    0.650628] sky2: driver version 1.30
+Feb 27 18:55:59 chuang kernel: [    0.651110] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Feb 27 18:55:59 chuang kernel: [    0.651548] ehci-pci: EHCI PCI platform driver
+Feb 27 18:55:59 chuang kernel: [    0.651915] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Feb 27 18:55:59 chuang kernel: [    0.652263] ohci-pci: OHCI PCI platform driver
+Feb 27 18:55:59 chuang kernel: [    0.653182] ohci-pci 0000:00:06.0: OHCI PCI host controller
+Feb 27 18:55:59 chuang kernel: [    0.653813] ohci-pci 0000:00:06.0: new USB bus registered, assigned bus number 1
+Feb 27 18:55:59 chuang kernel: [    0.654334] ohci-pci 0000:00:06.0: irq 22, io mem 0xf0804000
+Feb 27 18:55:59 chuang kernel: [    0.706980] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Feb 27 18:55:59 chuang kernel: [    0.707332] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Feb 27 18:55:59 chuang kernel: [    0.708111] usb usb1: Product: OHCI PCI host controller
+Feb 27 18:55:59 chuang kernel: [    0.708611] usb usb1: Manufacturer: Linux 4.16.0-rc1-00100-g1388c80438e6 ohci_hcd
+Feb 27 18:55:59 chuang kernel: [    0.709061] usb usb1: SerialNumber: 0000:00:06.0
+Feb 27 18:55:59 chuang kernel: [    0.709894] hub 1-0:1.0: USB hub found
+Feb 27 18:55:59 chuang kernel: [    0.710352] hub 1-0:1.0: 12 ports detected
+Feb 27 18:55:59 chuang kernel: [    0.711158] uhci_hcd: USB Universal Host Controller Interface driver
+Feb 27 18:55:59 chuang kernel: [    0.711708] usbcore: registered new interface driver usblp
+Feb 27 18:55:59 chuang kernel: [    0.712129] usbcore: registered new interface driver usb-storage
+Feb 27 18:55:59 chuang kernel: [    0.712655] i8042: PNP: PS/2 Controller [PNP0303:PS2K,PNP0f03:PS2M] at 0x60,0x64 irq 1,12
+Feb 27 18:55:59 chuang kernel: [    0.713812] serio: i8042 KBD port at 0x60,0x64 irq 1
+Feb 27 18:55:59 chuang kernel: [    0.714185] serio: i8042 AUX port at 0x60,0x64 irq 12
+Feb 27 18:55:59 chuang kernel: [    0.715853] rtc_cmos rtc_cmos: rtc core: registered rtc_cmos as rtc0
+Feb 27 18:55:59 chuang kernel: [    0.716282] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input3
+Feb 27 18:55:59 chuang kernel: [    0.717080] rtc_cmos rtc_cmos: alarms up to one day, 114 bytes nvram
+Feb 27 18:55:59 chuang kernel: [    0.717923] device-mapper: ioctl: 4.37.0-ioctl (2017-09-20) initialised: dm-devel@redhat.com
+Feb 27 18:55:59 chuang kernel: [    0.718679] hidraw: raw HID events driver (C) Jiri Kosina
+Feb 27 18:55:59 chuang kernel: [    0.720120] usbcore: registered new interface driver usbhid
+Feb 27 18:55:59 chuang kernel: [    0.720649] usbhid: USB HID core driver
+Feb 27 18:55:59 chuang kernel: [    0.722264] Initializing XFRM netlink socket
+Feb 27 18:55:59 chuang kernel: [    0.722960] NET: Registered protocol family 10
+Feb 27 18:55:59 chuang kernel: [    0.723683] Segment Routing with IPv6
+Feb 27 18:55:59 chuang kernel: [    0.724615] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+Feb 27 18:55:59 chuang kernel: [    0.725047] NET: Registered protocol family 17
+Feb 27 18:55:59 chuang kernel: [    0.725433] Key type dns_resolver registered
+Feb 27 18:55:59 chuang kernel: [    0.726419] sched_clock: Marking stable (726299573, 0)->(865886832, -139587259)
+Feb 27 18:55:59 chuang kernel: [    0.728736] registered taskstats version 1
+Feb 27 18:55:59 chuang kernel: [    0.729118] Loading compiled-in X.509 certificates
+Feb 27 18:55:59 chuang kernel: [    0.729782]   Magic number: 6:698:947
+Feb 27 18:55:59 chuang kernel: [    0.730389] cpuid cpu2: hash matches
+Feb 27 18:55:59 chuang kernel: [    0.730849] tty tty4: hash matches
+Feb 27 18:55:59 chuang kernel: [    0.731183] processor cpu2: hash matches
+Feb 27 18:55:59 chuang kernel: [    0.731627] console [netcon0] enabled
+Feb 27 18:55:59 chuang kernel: [    0.731851] netconsole: network logging started
+Feb 27 18:55:59 chuang kernel: [    0.732273] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+Feb 27 18:55:59 chuang kernel: [    0.734763] cfg80211: Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+Feb 27 18:55:59 chuang kernel: [    0.735228] ALSA device list:
+Feb 27 18:55:59 chuang kernel: [    0.735625]   No soundcards found.
+Feb 27 18:55:59 chuang kernel: [    0.735915] platform regulatory.0: Direct firmware load for regulatory.db failed with error -2
+Feb 27 18:55:59 chuang kernel: [    0.736217] cfg80211: failed to load regulatory.db
+Feb 27 18:55:59 chuang kernel: [    0.928849] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input5
+Feb 27 18:55:59 chuang kernel: [    0.929868] md: Waiting for all devices to be available before autodetect
+Feb 27 18:55:59 chuang kernel: [    0.930168] md: If you don't use raid, use raid=noautodetect
+Feb 27 18:55:59 chuang kernel: [    0.930814] md: Autodetecting RAID arrays.
+Feb 27 18:55:59 chuang kernel: [    0.931167] md: autorun ...
+Feb 27 18:55:59 chuang kernel: [    0.931570] md: ... autorun DONE.
+Feb 27 18:55:59 chuang kernel: [    0.933839] EXT4-fs (sda2): couldn't mount as ext3 due to feature incompatibilities
+Feb 27 18:55:59 chuang kernel: [    0.935792] EXT4-fs (sda2): couldn't mount as ext2 due to feature incompatibilities
+Feb 27 18:55:59 chuang kernel: [    0.963138] EXT4-fs (sda2): mounted filesystem with ordered data mode. Opts: (null)
+Feb 27 18:55:59 chuang kernel: [    0.963587] VFS: Mounted root (ext4 filesystem) readonly on device 8:2.
+Feb 27 18:55:59 chuang kernel: [    0.990975] devtmpfs: mounted
+Feb 27 18:55:59 chuang kernel: [    0.992964] Freeing unused kernel memory: 1224K
+Feb 27 18:55:59 chuang kernel: [    0.993363] Write protecting the kernel read-only data: 18432k
+Feb 27 18:55:59 chuang kernel: [    0.995065] Freeing unused kernel memory: 2004K
+Feb 27 18:55:59 chuang kernel: [    0.997250] Freeing unused kernel memory: 1040K
+Feb 27 18:55:59 chuang kernel: [    1.081118] usb 1-1: new full-speed USB device number 2 using ohci-pci
+Feb 27 18:55:59 chuang kernel: [    1.247138] tsc: Refined TSC clocksource calibration: 2893.406 MHz
+Feb 27 18:55:59 chuang kernel: [    1.247605] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x29b4ee1aabe, max_idle_ns: 440795265226 ns
+Feb 27 18:55:59 chuang kernel: [    1.254608] clocksource: Switched to clocksource tsc
+Feb 27 18:55:59 chuang kernel: [    1.318006] usb 1-1: New USB device found, idVendor=80ee, idProduct=0021
+Feb 27 18:55:59 chuang kernel: [    1.318489] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=0
+Feb 27 18:55:59 chuang kernel: [    1.318893] usb 1-1: Product: USB Tablet
+Feb 27 18:55:59 chuang kernel: [    1.319245] usb 1-1: Manufacturer: VirtualBox
+Feb 27 18:55:59 chuang kernel: [    1.330667] input: VirtualBox USB Tablet as /devices/pci0000:00/0000:00:06.0/usb1/1-1/1-1:1.0/0003:80EE:0021.0001/input/input6
+Feb 27 18:55:59 chuang kernel: [    1.332240] hid-generic 0003:80EE:0021.0001: input,hidraw0: USB HID v1.10 Mouse [VirtualBox USB Tablet] on usb-0000:00:06.0-1/input0
+Feb 27 18:55:59 chuang kernel: [    1.345137] stty (1053) used greatest stack depth: 13888 bytes left
+Feb 27 18:55:59 chuang kernel: [    1.384762] dmesg (1059) used greatest stack depth: 13640 bytes left
+Feb 27 18:55:59 chuang kernel: [    1.616172] mountpoint (1087) used greatest stack depth: 13512 bytes left
+Feb 27 18:55:59 chuang kernel: [    1.713381] ip (1119) used greatest stack depth: 12792 bytes left
+Feb 27 18:55:59 chuang kernel: <30>[    1.867533] udevd[1149]: starting version 3.2
+Feb 27 18:55:59 chuang kernel: <30>[    2.014004] udevd[1150]: starting eudev-3.2
+Feb 27 18:55:59 chuang kernel: [    2.575915] random: crng init done
+Feb 27 18:55:59 chuang kernel: [    2.694800] e1000 0000:00:03.0 enp0s3: renamed from eth0
+Feb 27 18:55:59 chuang kernel: [    2.723760] hello: version magic '4.15.0-thor_kernel-00079-gef7f8cec80a0-dirty SMP mod_unload ' should be '4.16.0-rc1-00100-g1388c80438e6 SMP mod_unload '
+Feb 27 18:55:59 chuang kernel: [    2.801787] hello: version magic '4.15.0-thor_kernel-00079-gef7f8cec80a0-dirty SMP mod_unload ' should be '4.16.0-rc1-00100-g1388c80438e6 SMP mod_unload '
+Feb 27 18:55:59 chuang kernel: [    4.637149] Adding 2047996k swap on /dev/sda3.  Priority:1 extents:1 across:2047996k 
+Feb 27 18:55:59 chuang kernel: [    4.659004] EXT4-fs (sda2): re-mounted. Opts: (null)
+Feb 27 18:55:59 chuang kernel: [    4.762150] EXT4-fs (sda2): re-mounted. Opts: (null)
+Feb 27 18:55:59 chuang kernel: [    4.783409] EXT4-fs (sda1): mounting ext2 file system using the ext4 subsystem
+Feb 27 18:55:59 chuang kernel: [    4.815939] EXT4-fs (sda1): warning: mounting unchecked fs, running e2fsck is recommended
+Feb 27 18:55:59 chuang kernel: [    4.818552] EXT4-fs (sda1): mounted filesystem without journal. Opts: (null)
+Feb 27 18:55:59 chuang kernel: [    6.112117] IPv6: ADDRCONF(NETDEV_UP): enp0s3: link is not ready
+Feb 27 18:55:59 chuang kernel: [    6.112592] ip (2249) used greatest stack depth: 12776 bytes left
+Feb 27 18:55:59 chuang kernel: [    6.113552] e1000: enp0s3 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Feb 27 18:55:59 chuang kernel: [    6.114694] IPv6: ADDRCONF(NETDEV_CHANGE): enp0s3: link becomes ready

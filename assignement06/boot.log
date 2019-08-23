@@ -1,0 +1,20 @@
+--------
+Feb 27 18:55:54 +01:00 (none)  Mounting virtual file systems: /run /proc /sys OK
+Feb 27 18:55:54 +01:00 (none)  Bringing up the loopback interface... OK
+Feb 27 18:55:54 +01:00 (none)  Setting hostname to chuang... OK
+Feb 27 18:55:54 +01:00 chuang  Populating /dev with device nodes...  OK
+Feb 27 18:55:58 +01:00 chuang  Activating all swap files/partitions... OK
+Feb 27 18:55:58 +01:00 chuang  Mounting root file system in read-only mode...  OK
+Feb 27 18:55:58 +01:00 chuang  Checking file systems... OK
+Feb 27 18:55:58 +01:00 chuang  Remounting root file system in read-write mode... OK
+Feb 27 18:55:58 +01:00 chuang  Mounting remaining file systems... OK
+Feb 27 18:55:58 +01:00 chuang  Cleaning file systems: /tmp OK
+Feb 27 18:55:58 +01:00 chuang  Retrying failed uevents, if any... OK
+Feb 27 18:55:59 +01:00 chuang  Setting up Linux console... OK
+Feb 27 18:55:59 +01:00 chuang  Starting system log daemon... OK
+Feb 27 18:55:59 +01:00 chuang  Starting kernel log daemon... OK
+Feb 27 18:55:59 +01:00 chuang  Bringing up the enp0s3 interface... 
+Feb 27 18:55:59 +01:00 chuang  Adding IPv4 address 10.0.2.15 to the enp0s3 interface... OK
+Feb 27 18:55:59 +01:00 chuang  Setting up default gateway... OK
+Feb 27 18:55:59 +01:00 chuang  Starting SSH Server... OK
+--------

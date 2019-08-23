@@ -1,0 +1,18 @@
+an 29 18:38:39 chuang kernel: [   61.485890] usbcore: deregistering interface driver usbhid
+Jan 29 18:38:58 chuang kernel: [   80.647645] hello: loading out-of-tree module taints kernel.
+Jan 29 18:38:58 chuang kernel: [   80.648561] Hello keyboard to world !
+Jan 29 18:38:58 chuang kernel: [   80.648890] Hello, Keyboard
+Jan 29 18:41:53 chuang kernel: [  255.215016] Keyboard device disconnected
+Jan 29 18:42:06 chuang kernel: [  268.255210] usb 1-2: new full-speed USB device number 4 using ohci-pci
+Jan 29 18:42:07 chuang kernel: [  269.052492] usb 1-2: New USB device found, idVendor=045e, idProduct=0048
+Jan 29 18:42:07 chuang kernel: [  269.052881] usb 1-2: New USB device strings: Mfr=0, Product=1, SerialNumber=0
+Jan 29 18:42:07 chuang kernel: [  269.053187] usb 1-2: Product: Microsoft® Office Keyboard
+Jan 29 18:42:07 chuang kernel: [  269.068068] Hello, Keyboard
+Jan 29 18:42:07 chuang kernel: [  269.111282] input: Microsoft® Office Keyboard as /devices/pci0000:00/0000:00:06.0/usb1/1-2/1-2:1.1/0003:045E:0048.0006/input/input11
+Jan 29 18:42:07 chuang kernel: [  269.163681] microsoft 0003:045E:0048.0006: input,hidraw1: USB HID v1.10 Device [Microsoft® Office Keyboard] on usb-0000:00:06.0-2/input1
+Jan 29 18:42:25 chuang kernel: [  287.885362] Goodbye world.
+Jan 29 18:42:25 chuang kernel: [  287.885659] usbcore: deregistering interface driver hello_world_driver
+Jan 29 18:42:25 chuang kernel: [  287.887113] Keyboard device disconnected
+Jan 29 18:42:32 chuang kernel: [  294.517375] Hello keyboard to world !
+Jan 29 18:42:32 chuang kernel: [  294.517819] Hello, Keyboard
+Jan 29 18:42:32 chuang kernel: [  294.519197] usbcore: registered new interface driver hello_world_driver

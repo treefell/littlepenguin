@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="input", SUBSYSTEMS=="usb", RUN+="/sbin/insmod /transit/keyboard/hello.ko"
